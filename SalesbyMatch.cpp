@@ -74,7 +74,7 @@ int sockMerchant2(int n, vector<int> ar)
     int mode = number;
     int count = 1;
 
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i < n; ++i)
     {
         if (ar[i] == number)
         {
